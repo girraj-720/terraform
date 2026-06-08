@@ -9,9 +9,8 @@ resource "azurerm_resource_group" "RG2" {
 } 
 resource "azurerm_resource_group" "RG3" {
   name     = "papaya-rg3"
-  location = "Westus" 
+  location = "centralindia" 
 }
-
 resource "azurerm_resource_group" "RG3" {
   name     = "papaya-rg3"
   location = "West Europe" 
