@@ -18,5 +18,6 @@ resource "azurerm_resource_group" "RG3" {
 }
 resource "azurerm_resource_group" "RG3" {
   name     = "papaya-rg3"
+
   location = "West Europe" 
 }
